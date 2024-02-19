@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CV clone</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Wiseman Umanah">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A simple CV clone">
+		<style>
+			html{
+				position: relative;
+				min-height: 100vh;
+			}
+			body{
+				background-color: rgb(255, 250, 250);
+				margin: 0;
+				padding: 0;
+				color: #484848;
+				font-size: 14px;
+				font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+			}
+			main{
+				max-width: 1000px;
+				margin: 30px auto;
+				display: flex;
+			}
+			section{
+				margin:0 30px;
+			}
+			.field{
+				margin-bottom: 30px;
+				position: relative;
+			}
+			.field h2{
+				margin-bottom: 10px;
+			}
+			header{
+				background-color: rgb(52, 203, 234);
+				border-bottom: solid 1px #CCCCCC;
+				display: flex;
+				align-items: center;
+				justify-content: left;
+				padding: 0 60px;
+				color: white;
+				justify-content: space-between;
+			}
+			header ul{
+				font-size: 10px;
+				list-style-type: none;
+				padding: 0;
+			}
+			.profile-pic{
+				border-radius: 100%;
+				width: 100px;
+			}
+			footer{
+				bottom: 0%;
+				text-align: center;
+				padding: 20px 0;
+				border-top: grey 1px solid;
+				color: grey;
+			}
+			h2{
+				border-bottom: rgb(12, 68, 103) solid 4px;
+				color: rgb(12, 68, 103);
+			}
+			.archive{
+				border-bottom: grey 1px dotted;
+				display: flex;
+				align-items:flex-start;
+				column-gap: 10px;
+			}
+			ul{
+				padding: 0;
+				list-style-type: none;
+			}
+			.list-icon{
+				width: 25px;
+			}
+			.date, .author2{
+				margin-top: 15px;
+				color: grey;
+			}
+			.date-icon{
+				width: 15px;
+			}
+			.uni{
+				color: aqua;
+			}
+			.author{
+				position: absolute;
+				right: 0;
+				color: grey
+			}
+			.linkedin{
+				text-decoration: none;
+				color: white;
+			}
+			.quote, .uni{
+				color: rgb(40, 223, 223);
+				font-weight: bold;
+				
+			}
+		
+			.techstack, .hob{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+			.techstack li{
+				border-bottom: grey 1px solid;
+				margin-bottom: 5px;
+			}
+			h3{
+				color: rgb(12, 68, 103);
+				margin: 15px 0 0 0;
+			}
+			.hob{
+				font-weight: bold;
+				flex-direction: column;
+				color: rgb(12, 68, 103);
+			}
+			.hob li{
+				margin-bottom: 5px;
+				padding: 10px 0;
+				border-bottom: grey 1px dotted;
+			}
+			h4{
+				margin: 2px 0;
+				color: aqua;
+			}
+			.date-time{
+				display: flex;
+				color: grey;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.experience-list{
+				list-style-type: disc;
+				padding-left: 20px;
+			}
+			.experience{
+				border-bottom: grey 1px dotted;
+				padding-bottom: 10px;
+			}
+			.experience p, .experience ul{
+				margin: 3px;
+			}
+			.contact{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1>WISEMAN UMANAH'S CV</h1>
+				<p>I solve problems and help people overcome obstacles.</p>
+				<ul class="contact">
+					<li>
+						<img src="images/icon_wifi.png" class="date-icon">
+						+2348027820607
+					</li>
+					<li>
+						<img src="images/icon_wifi.png" class="date-icon">wisemanumanah@gmail.com
+					</li>
+					<li><img src="images/icon_wifi.png" class="date-icon">
+						<a href="https://www.linkedin.com/in/wisemanumanah" class="linkedin">https://www.linkedin.com/in/wisemanumanah</a>
+					</li>
+					<li>
+						<img src="images/icon_wifi.png" class="date-icon">15 Asuquo Ibanga Street, Uyo
+					</li>
+				</ul>
+			</div>
+			<img src="images/mine.jpg" class="profile-pic">
+		</header>
+		<main>
+			<section>
+				<div class="field">
+					<h2>MY LIFE PHILOSOPHY</h2>
+					<div><p class="quote">Impossible is potential. Impossible is temporary. Impossible is nothing</p>
+						<span class="author">Muhammed Ali</span>
+					</div>
+				</div>
+				<div class="field">
+					<h2>EXPERIENCE</h2>
+					<div class="experience">
+						<h3>Senior IT Product Manager</h3>
+						<h4>C Lab Services</h4>
+						<div class="date-time">
+							<div>
+								<img src="images/icon_wifi.png" class="date-icon">
+								02/2010-04/2012
+							</div>
+							<div>
+								<img src="images/icon_wifi.png" class="date-icon">
+								San Francisco, CA
+							</div>
+						</div>
+						<div>
+							<p>Rover Games is a multi-play mobile game app for development from
+							that has successful titles such as Drink Somethinh, Trivia Tonight and King's Fight</p>
+							<ul class="experience-list">
+								<li>Accelerated outbound sales cycle by 330% by designing</li>
+								<li>empty</li>
+								<li>empty</li>
+							</ul>
+						</div>
+					</div>
+					<div class="experience">
+						<h3>Senior IT Product Manager</h3>
+						<h4>C Lab Services</h4>
+						<div class="date-time">
+							<div>
+								<img src="images/icon_wifi.png" class="date-icon">
+								02/2010-04/2012
+							</div>
+							<div>
+								<img src="images/icon_wifi.png" class="date-icon">
+								San Francisco, CA
+							</div>
+						</div>
+						<div>
+							<p>Rover Games is a multi-play mobile game app for development from
+							that has successful titles such as Drink Somethinh, Trivia Tonight and King's Fight</p>
+							<ul class="experience-list">
+								<li>Accelerated outbound sales cycle by 330% by designing</li>
+								<li>empty</li>
+								<li>empty</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="field">
+					<h2>EDUCATION</h2>
+					<div><b>Bachelor of Engineering, Mechanical Engineering<br>
+					<span class="uni">University of Uyo, Uyo</span></b>
+				</div>
+					<div class="date">
+						<img src="images/icon_wifi.png" class="date-icon">
+						18/2021 - 18/2024
+					</div>
+				</div>
+				<div class="field">
+					<h2>TECH STACK</h2>
+					<ul class="techstack">
+						<li>C</li>
+						<li>Python</li>
+						<li>JavaScript</li>
+						<li>System Admin</li>
+						<li>Linux</li>
+						<li>SQL</li>
+						<li>Puppet</li>
+						<li>Web Development</li>
+					</ul>
+			</section>
+			<section>
+				<div class="field">
+					<h2>ACHIEVEMENTS</h2>
+					<div class="archive">
+						<div><img src="images/icon_wifi.png" class="list-icon"></div>
+						<div>
+							<h3>Record project Delivery</h3>
+							<p>Facilitated the development of a full-
+								featured SMB product in just 4 months
+							</p>
+						</div>
+					</div>
+					<div class="archive">
+						<div><img src="images/icon_wifi.png" class="list-icon"></div>
+						<div>
+							<h3>Record project Delivery</h3>
+							<p>Facilitated the development of a full-
+								featured SMB product in just 4 months
+							</p>
+						</div>
+					</div>
+					<div class="archive">
+						<div><img src="images/icon_wifi.png" class="list-icon"></div>
+						<div>
+							<h3>Record project Delivery</h3>
+							<p>Facilitated the development of a full-
+								featured SMB product in just 4 months
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="field">
+					<h2>CERTIFICATIONS</h2>
+					<div class="uni">Bachelor Degree</div>
+					<div class="author2">Scrum Aliance</div>
+				</div>
+				<div class="field">
+					<h2>PASSION</h2>
+					<ul class="hob">
+						<li>Reading</li>
+						<li>Playing Chess</li>
+						<li>Drawing</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer>Copyright &copy; All right reserved 2024</footer>
+	</body>
+</html>
