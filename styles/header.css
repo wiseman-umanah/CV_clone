@@ -1,0 +1,20 @@
+header{
+	background-color: rgb(52, 203, 234);
+	border-bottom: solid 1px #CCCCCC;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding: 0 60px;
+	color: white;
+	justify-content: space-between;
+}
+header ul{
+	font-size: 10px;
+	list-style-type: none;
+	padding: 0;
+}
+.profile-pic{
+	border-radius: 100%;
+	width: 100px;
+}
+

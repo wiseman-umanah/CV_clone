@@ -1,0 +1,97 @@
+body{
+	background-color: rgb(255, 250, 250);
+	margin: 0;
+	padding: 0;
+	color: #484848;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+main{
+	max-width: 1000px;
+	margin: 30px auto;
+	display: flex;
+}
+section{
+	margin:0 30px;
+}
+.field{
+	margin-bottom: 30px;
+	position: relative;
+}
+.field h2{
+	margin-bottom: 10px;
+}
+.list-icon{
+	width: 25px;
+}
+.date, .author2{
+	margin-top: 15px;
+	color: grey;
+}
+.date-icon{
+	width: 15px;
+}
+.uni{
+	color: aqua;
+}
+.author{
+	position: absolute;
+	right: 0;
+	color: grey
+}
+.linkedin{
+	text-decoration: none;
+	color: white;
+}
+.quote, .uni{
+	color: rgb(40, 223, 223);
+	font-weight: bold;
+	
+}
+.techstack, .hob{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.techstack li{
+	border-bottom: grey 1px solid;
+	margin-bottom: 5px;
+}
+.date-time{
+	display: flex;
+	color: grey;
+	align-items: center;
+	justify-content: space-between;
+}
+.experience-list{
+	list-style-type: disc;
+	padding-left: 20px;
+}
+.experience{
+	border-bottom: grey 1px dotted;
+	padding-bottom: 10px;
+}
+.experience p, .experience ul{
+	margin: 3px;
+}
+.contact{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.archive{
+	border-bottom: grey 1px dotted;
+	display: flex;
+	align-items:flex-start;
+	column-gap: 10px;
+}
+.hob{
+	font-weight: bold;
+	flex-direction: column;
+	color: rgb(12, 68, 103);
+}
+.hob li{
+	margin-bottom: 5px;
+	padding: 10px 0;
+	border-bottom: grey 1px dotted;
+}

@@ -1,0 +1,20 @@
+html{
+	position: relative;
+	min-height: 100vh;
+}
+h2{
+	border-bottom: rgb(12, 68, 103) solid 4px;
+	color: rgb(12, 68, 103);
+}
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+h3{
+	color: rgb(12, 68, 103);
+	margin: 15px 0 0 0;
+}
+h4{
+	margin: 2px 0;
+	color: aqua;
+}
